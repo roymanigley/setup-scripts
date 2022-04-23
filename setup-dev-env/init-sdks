@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "[+] installing java $java_version"
+sdk install java $java_version
+
+echo "[+] installing maven $maven_version"
+sdk install maven $maven_version
+
+echo "[+] installing node $node_version"
+nvm install node $node_version
+
